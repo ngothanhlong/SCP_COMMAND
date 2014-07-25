@@ -58,6 +58,7 @@ SCP
 	 Đăng nhập vào phần mềm:
 	   <img src="http://i.imgur.com/gIdXo3C.png">
 	 Giao diện chính phần mềm:
-	   <img src"http://i.imgur.com/NqimEhz.png">
+<img src="http://i.imgur.com/NqimEhz.png">
+
 
    => Từ giao diện phần mềm copy file từ máy windows sang máy linux . OK đợi đến lúc thành ciibg
