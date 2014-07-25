@@ -45,5 +45,16 @@ SCP
       scp your_username@remotehost.edu:foobar.txt /some/local/directory
    ```
    ========================================================================================================================
-   
+   * Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
+   - Dùng để trao đổi dữ liệu giữa máy windows với máy Linux.
+   - Tải phần mềm và cài đặt:
+     ```
+	   http://winscp.net/eng/download.php
+	 ```
+	- Chạy file .exe để  cài đặt
+	
+	
+	- Sử dụng winscp: 
+	   <img src="http://i.imgur.com/gIdXo3C.png">
+
    
