@@ -39,3 +39,11 @@ SCP
    ```
        scp ubuntu1204.qcow2 root@'192.168.1.15':/root
    ```
+   -Copy  file "foobar.txt" từ remote host đến local host
+   
+   ```
+      scp your_username@remotehost.edu:foobar.txt /some/local/directory
+   ```
+   ========================================================================================================================
+   
+   
