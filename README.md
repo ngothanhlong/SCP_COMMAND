@@ -60,4 +60,4 @@ SCP
 	 Giao diện chính phần mềm:
 	   <img src"http://i.imgur.com/NqimEhz.png">
 
-   
+   => Từ giao diện phần mềm copy file từ máy windows sang máy linux . OK đợi đến lúc thành ciibg
