@@ -55,6 +55,9 @@ SCP
 	
 	
 	- Sử dụng winscp: 
+	 Đăng nhập vào phần mềm:
 	   <img src="http://i.imgur.com/gIdXo3C.png">
+	 Giao diện chính phần mềm:
+	   <img src"http://i.imgur.com/NqimEhz.png">
 
    
