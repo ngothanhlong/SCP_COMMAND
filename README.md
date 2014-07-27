@@ -3,7 +3,7 @@ SCP
 #### Tìm hiểu lệnh SCP.
 
  I. SCP là gì?
-
+- SCP (Secure Copy – Sao chép an toàn) là một ứng dụng sử dụng SSH để mã hóa toàn bộ quá trình chuyển tập tin.
 - SCP  là lệnh dùng để di chuyển file dữ liệu giữa các máy tính chạy hệ điều hành Linux từ xa chỉ cần biết địa chỉ ip
 - SCP dùng ssh để di chuyển dữ liệu, có chế độ bảo mật giống như ssh.
 
@@ -46,7 +46,9 @@ SCP
 		```
 
   2.3.Áp dụng:
-   
+     - Mô hình:
+	   
+         <img src="http://i.imgur.com/9w0qELk.png "  width=300 height=200> 
      |------------------------------------------------------------ |
 	 | Local : ubuntu1204           | Remote : ubuntu-server-1204  |
 	 | ip:    : 192.168.1.14/24     | ip     : 192.168.1.15/24     |
@@ -62,7 +64,6 @@ SCP
    ```
       scp  root@:foobar.txt  /home/kvm
    ```
-   
 	 -  
    ========================================================================================================================
    * Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
