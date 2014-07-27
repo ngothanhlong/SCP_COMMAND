@@ -7,33 +7,40 @@ Hướng dẫn sử dụng lệnh SCP
 - SCP  là lệnh dùng để di chuyển file dữ liệu giữa các máy tính chạy hệ điều hành Linux từ xa chỉ cần biết địa chỉ ip
 - SCP dùng ssh để di chuyển dữ liệu, có chế độ bảo mật giống như ssh.
 
-####II. Cài đặt và sử dụng:
+#### II. Cài đặt và sử dụng:
 
 ###### 2.1 .Cài đặt scp:
+
     - Scp có sẵn trong các bản dis của hệ điều hành Linux.Nếu chưa có , cài đặt như sau :
      
      ```
        Ubuntu/Debian : sudo apt-get install scp -y
        Fedora/RedHat/Centos: yum install scp -y
+       
      ```
+    
     - Cài đặt gói ssh trên các máy cần trao đổi dữ liệu:
+    
      ```
       sudo apt-get install -y openssh-server
      ```
+     
    - Kiểm tra ip của máy:
-    ```
+   
+    ````
        ifconfig -a 
-    ```
+    ````
    
 ###### 2.2. Sử dụng scp:
    
     * Trên hệ điều hành linux:(Ubuntu 12.04):
      
       cú pháp sử dụng chuẩn:
+
        ```
        scp [-pqrvBC46 ] [-F ssh_config ] [-S program ] [-P port ] [-c cipher ] [-i identity_file ] [-o ssh_option ] [[user@ ] host1 : file1 ] [... ] [[user@ ] host2 : file2 ]
        
-	  ```
+       ```
   option:
    ```
     -c  : Chọn thuật toán mã hóa để sử dụng cho việc mã hóa việc truyền dữ liệu.
