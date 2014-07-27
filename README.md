@@ -50,7 +50,7 @@ Hướng dẫn sử dụng lệnh SCP
 		 
     - Thông tin số các thiết bị :
     
-    
+```    
      * Máy local :
        
         |   OS   |  Ubuntu-12.04 Desktop |
@@ -69,7 +69,7 @@ Hướng dẫn sử dụng lệnh SCP
         | Ram    |  2GB                  |
         |--------|:----------------------|
         | CPU    |     1                 |
-
+```
 	 
    - Đẩy file "ubuntu1204.qcow2" lên máy Remote /root:
    ```
@@ -80,7 +80,10 @@ Hướng dẫn sử dụng lệnh SCP
    ```
       scp  root@:foobar.txt  /home/kvm
    ```
-
+   - copy toàn bộ thư mục backup về /home/kvm
+   ```
+      scp -r root@192.168.1.15:/root/backup /home/kvm
+   ```
    =======================================================================================================================
    * Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
    - Dùng để trao đổi dữ liệu giữa máy windows với máy Linux.
@@ -93,13 +96,13 @@ Hướng dẫn sử dụng lệnh SCP
 
 
 	
-	- Sử dụng winscp: 
-	 Đăng nhập vào phần mềm:
+  - Sử dụng winscp: 
+      Đăng nhập vào phần mềm:
 	   <img src="http://i.imgur.com/gIdXo3C.png">
 
 
-      - Giao diện chính phần mềm:
-           <img src="http://i.imgur.com/NqimEhz.png">
+  - Giao diện chính phần mềm:
+          <img src="http://i.imgur.com/NqimEhz.png">
 
 
    => Từ giao diện phần mềm copy file từ thư mục trong  máy windows sang máy thư mục trong máy linux . OK đợi đến lúc thành công
