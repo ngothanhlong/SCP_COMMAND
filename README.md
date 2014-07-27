@@ -40,6 +40,7 @@ SCP
 	   
 	-v : cung cấp thông tin chi tiết của quá trình.
    ```
+   
 	- Cú pháp cơ bản:
 	    ```
 		  scp <file_name> username@host_remote :/<thư mục>
@@ -66,7 +67,7 @@ SCP
    ```
       scp  root@:foobar.txt  /home/kvm
    ```
-	 -  
+
    ========================================================================================================================
    * Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
    - Dùng để trao đổi dữ liệu giữa máy windows với máy Linux.
