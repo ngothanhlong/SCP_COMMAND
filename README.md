@@ -51,11 +51,27 @@ SCP
 	   
          <img src="http://i.imgur.com/9w0qELk.png "> 
 		 
-		 
-     |------------------------------|----------------------------- |
-	 | Local : ubuntu1204           | Remote : ubuntu-server-1204  |
-	 | ip:    : 192.168.1.14/24     | ip     : 192.168.1.15/24     |
-     | -----------------------------|------------------------------|
+    - Thông tin số các thiết bị :
+    
+    
+     * Máy local :
+       
+        |   OS   |  Ubuntu-12.04 Desktop |
+        |--------|-----------------------|
+        |   ip   | 192.168.1.14/24       |
+        |--------|-----------------------|
+        | Ram    |  2GB                  |
+        |------- |-----------------------|
+        | CPU    |     1                 |
+        
+      * Máy remote: 
+        |   OS   |  Ubuntu-12.04 Server  |
+        |--------|-----------------------|
+        |   ip   | 192.168.1.15/24       |
+        |--------|-----------------------|
+        | Ram    |  2GB                  |
+        |--------|-----------------------|
+        | CPU    |     1                 |
 	 
 	 
    - Đẩy file "ubuntu1204.qcow2" lên máy Remote /root:
@@ -68,7 +84,7 @@ SCP
       scp  root@:foobar.txt  /home/kvm
    ```
 
-   ========================================================================================================================
+   =======================================================================================================================
    * Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
    - Dùng để trao đổi dữ liệu giữa máy windows với máy Linux.
    - Tải phần mềm và cài đặt:
@@ -82,7 +98,7 @@ SCP
 	 Đăng nhập vào phần mềm:
 	   <img src="http://i.imgur.com/gIdXo3C.png">
 	 Giao diện chính phần mềm:
-<img src="http://i.imgur.com/NqimEhz.png">
+           <img src="http://i.imgur.com/NqimEhz.png">
 
 
    => Từ giao diện phần mềm copy file từ thư mục trong  máy windows sang máy thư mục trong máy linux . OK đợi đến lúc thành công
