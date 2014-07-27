@@ -103,21 +103,22 @@ Hướng dẫn sử dụng lệnh SCP
     ```
       scp -P 2264 test.txt root@192.168.1.15:/home/remote/
     ```
-  - Copy nhiều tập tin từ máy remote về máy local : 
+   - Copy nhiều tập tin từ máy remote về máy local : 
    ```
      scp remote@192.168.1.15:~/\{foo.txt,bar.txt\} .
    ```
-  - Giới hạn băng thông sử dụng khi truyền tải:
+   - Giới hạn băng thông sử dụng khi truyền tải:
    ````
       scp -l 400 Label.pdf root@192.168.1.15:
    ````
 
-
+* SCP còn nhiều tính năng khác nữa. Trên đây chỉ nêu một vài tính năng phổ biến
  
    ======================================================================================================================
 #####2.4:  Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
    - Dùng để trao đổi dữ liệu giữa máy windows với máy Linux.
    - Tải phần mềm và cài đặt:
+   
      ```
 	   http://winscp.net/eng/download.php
 	 ```
