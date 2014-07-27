@@ -50,7 +50,7 @@ Hướng dẫn sử dụng lệnh SCP
 		 
     - Thông tin số các thiết bị :
     
-```
+    
      * Máy local :
        
         |   OS   |  Ubuntu-12.04 Desktop |
@@ -69,7 +69,7 @@ Hướng dẫn sử dụng lệnh SCP
         | Ram    |  2GB                  |
         |--------|:----------------------|
         | CPU    |     1                 |
-``` 
+
 	 
    - Đẩy file "ubuntu1204.qcow2" lên máy Remote /root:
    ```
@@ -98,7 +98,7 @@ Hướng dẫn sử dụng lệnh SCP
 	   <img src="http://i.imgur.com/gIdXo3C.png">
 
 
-	 Giao diện chính phần mềm:
+      - Giao diện chính phần mềm:
            <img src="http://i.imgur.com/NqimEhz.png">
 
 
