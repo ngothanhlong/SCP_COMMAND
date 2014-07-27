@@ -122,8 +122,9 @@ Hướng dẫn sử dụng lệnh SCP
 	   http://winscp.net/eng/download.php
 	 ```
 	- Chạy file .exe để  cài đặt
-	 
-
+	 ```
+	    WinSCP/winscp.exe
+     ```
 
 	
   - Sử dụng winscp: 
