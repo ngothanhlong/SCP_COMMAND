@@ -8,7 +8,7 @@ Hướng dẫn sử dụng lệnh SCP
 - SCP dùng ssh để di chuyển dữ liệu, có chế độ bảo mật giống như ssh.
 
  II. Cài đặt và sử dụng:
-  2.1 .Cài đặt scp:
+  #####2.1 .Cài đặt scp:
     - cài đặt gói ssh trên các máy cần trao đổi dữ liệu:
      ```
       sudo apt-get install -y openssh-server
@@ -17,7 +17,7 @@ Hướng dẫn sử dụng lệnh SCP
     ```
        ifconfig -a 
     ```
-  2.2. Sử dụng scp:
+###### 2.2. Sử dụng scp:
    
     * Trên hệ điều hành linux:(Ubuntu 12.04):
      
@@ -35,22 +35,27 @@ Hướng dẫn sử dụng lệnh SCP
     -p : backup lại file gốc.
 	
     -r : sao chép lại toàn bộ thư mục.
-	
-	-C : nén  file trong khi thực hiện:
+    
+    -C : nén  file trong khi thực hiện:
 	   
-	-v : cung cấp thông tin chi tiết của quá trình.
+    -v : cung cấp thông tin chi tiết của quá trình.
+    
+    -1 : Forces scp to use protocol 1.
+   
+    -2 : Forces scp to use protocol 2.
+    
    ```
  
 
-  2.3.Áp dụng:
+ #####2.3.Áp dụng:
   
      - Mô hình:
 	   
-         <img src="http://i.imgur.com/9w0qELk.png "> 
+         <img src="http://i.imgur.com/9w0qELk.png " width-"400" height="400"> 
 		 
     - Thông tin số các thiết bị :
     
-```    
+  ```    
      * Máy local :
        
         |   OS   |  Ubuntu-12.04 Desktop |
@@ -69,8 +74,10 @@ Hướng dẫn sử dụng lệnh SCP
         | Ram    |  2GB                  |
         |--------|:----------------------|
         | CPU    |     1                 |
-```
-	 
+   ```
+
+  * Ví dụ:
+  
    - Đẩy file "ubuntu1204.qcow2" lên máy Remote /root:
    ```
        scp ubuntu1204.qcow2 root@'192.168.1.15':/root
@@ -84,6 +91,29 @@ Hướng dẫn sử dụng lệnh SCP
    ```
       scp -r root@192.168.1.15:/root/backup /home/kvm
    ```
+   - Hiển thị chi tiết quá trình sao chép : 
+   ```
+      scp -v Label.pdf  root@192.168.1.15
+   ```
+   - Copy file "test1.sh" và  "test2.sh" từ máy local nên máy remote:
+    ```
+       scp test1.sh test1.sh root@192.168.1.15:~
+    ```
+   - Copy file "test.txt" từ máy local host sang máy  remote host sử dụng port 2264:
+    ```
+      scp -P 2264 test.txt root@192.168.1.15:/home/remote/
+    ```
+  - Copy nhiều tập tin từ máy remote về máy local : 
+   ```
+     scp remote@192.168.1.15:~/\{foo.txt,bar.txt\} .
+   ```
+  - Giới hạn băng thông sử dụng khi truyền tải:
+   ````
+      scp -l 400 Label.pdf root@192.168.1.15:
+   ````
+
+
+ 
    =======================================================================================================================
    * Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
    - Dùng để trao đổi dữ liệu giữa máy windows với máy Linux.
