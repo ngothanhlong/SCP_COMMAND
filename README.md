@@ -139,5 +139,5 @@ Hướng dẫn sử dụng lệnh SCP
 
    => Từ giao diện phần mềm copy file từ thư mục trong  máy windows sang máy thư mục trong máy linux . OK đợi đến lúc thành công
 #### Nguồn tham khảo 
-[Scp_command_line](http://www.tecmint.com/scp-commands-examples)
-)
+[10 SCP Commands to Transfer Files/Folders in Linux](http://www.tecmint.com/scp-commands-examples)
+
