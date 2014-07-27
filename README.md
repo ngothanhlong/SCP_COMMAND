@@ -114,8 +114,8 @@ Hướng dẫn sử dụng lệnh SCP
 
 
  
-   =======================================================================================================================
-   * Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
+   ======================================================================================================================
+   2.4:  Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
    - Dùng để trao đổi dữ liệu giữa máy windows với máy Linux.
    - Tải phần mềm và cài đặt:
      ```
