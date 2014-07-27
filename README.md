@@ -80,7 +80,7 @@ Hướng dẫn sử dụng lệnh SCP
   
    - Đẩy file "ubuntu1204.qcow2" lên máy Remote /root:
    ```
-	       scp ubuntu1204.qcow2 root@'192.168.1.15':/root
+       scp ubuntu1204.qcow2 root@'192.168.1.15':/root
    ```
    -Copy  file "foobar.txt" từ remote host sang máy local/home/kvm
    
@@ -139,4 +139,5 @@ Hướng dẫn sử dụng lệnh SCP
 
    => Từ giao diện phần mềm copy file từ thư mục trong  máy windows sang máy thư mục trong máy linux . OK đợi đến lúc thành công
 #### Nguồn tham khảo 
-  <a href ="http://www.tecmint.com/scp-commands-examples/">
+[Scp_command_line](http://www.tecmint.com/scp-commands-examples)
+)
