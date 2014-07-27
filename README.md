@@ -1,4 +1,4 @@
-SCP
+Hướng dẫn sử dụng lệnh SCP
 ==========
 #### Tìm hiểu lệnh SCP.
 
@@ -90,10 +90,14 @@ SCP
 	 ```
 	- Chạy file .exe để  cài đặt
 	 
+
+
 	
 	- Sử dụng winscp: 
 	 Đăng nhập vào phần mềm:
 	   <img src="http://i.imgur.com/gIdXo3C.png">
+
+
 	 Giao diện chính phần mềm:
            <img src="http://i.imgur.com/NqimEhz.png">
 
