@@ -51,7 +51,7 @@ Hướng dẫn sử dụng lệnh SCP
   
      - Mô hình:
 	   
-         <img src="http://i.imgur.com/9w0qELk.png " width-"400" height="400"> 
+<img src="http://i.imgur.com/9w0qELk.png " width-"400" height="400"> 
 		 
     - Thông tin số các thiết bị :
     
