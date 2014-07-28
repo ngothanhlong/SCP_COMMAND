@@ -124,7 +124,7 @@ Hướng dẫn sử dụng lệnh SCP
 
    - Copy nhiều tập tin từ máy remote về máy local : 
    ```
-     scp remote@192.168.1.15:~/\{foo.txt,bar.txt\} .
+     scp remote@192.168.1.15:foo.txt,bar.txt /root .
    ```
 
    - Giới hạn băng thông sử dụng khi truyền tải:
