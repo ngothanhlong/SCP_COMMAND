@@ -11,29 +11,27 @@ Hướng dẫn sử dụng lệnh SCP
 
 ###### 2.1 .Cài đặt scp:
 
-    - Scp có sẵn trong các bản dis của hệ điều hành Linux.Nếu chưa có , cài đặt như sau :
-     
-     
-     ```
+- Scp có sẵn trong các bản dis của hệ điều hành Linux.Nếu chưa có , cài đặt như sau :
+    
+```
        Ubuntu/Debian : sudo apt-get install scp -y
        Fedora/RedHat/Centos: yum install scp -y
-     ```
+```
     
-    - Cài đặt gói ssh trên các máy cần trao đổi dữ liệu:(ubuntu server 12.04,Desktop 12.04)
+- Cài đặt gói ssh trên các máy cần trao đổi dữ liệu:(ubuntu server 12.04,Desktop 12.04)
     
      ```
       sudo apt-get install -y openssh-server
      ```
      
-   - Kiểm tra ip của máy:
+- Kiểm tra ip của máy:
    
     ````
        ifconfig -a 
     ````
    
 ###### 2.2. Sử dụng scp:
-   
-    * Trên hệ điều hành linux:(Ubuntu 12.04):
+ * Trên hệ điều hành linux:(Ubuntu 12.04):
      
       cú pháp sử dụng chuẩn:
 
